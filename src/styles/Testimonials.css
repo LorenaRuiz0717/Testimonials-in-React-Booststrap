@@ -1,0 +1,15 @@
+.containerImg{
+    /* width: 170px; */
+     height: 150px;
+    margin:  10px 10px 50px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    /* background-color: aqua;  */
+    box-shadow:0 3px 13px 1px rgb(0 0 0 9%) ;
+}
+
+.imgTestimonials{
+    height: 100%;
+    width: auto;
+}
