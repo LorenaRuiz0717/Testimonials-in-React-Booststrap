@@ -1,0 +1,16 @@
+footer{
+    background-color:#5c7c9c;
+}
+
+.test{
+    width: 120px;
+    height: 120px;
+}
+
+.logoFooter{
+    width: 100px;
+    border: none;
+    justify-self: center;
+    /* align-self: flex-start; */
+    position: relative;
+  } 

@@ -1,0 +1,29 @@
+.navbar{
+    background-color:#5c7c9c;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+    font-weight: 700;
+}
+
+.logo{
+    width: 80px;
+    border: none;
+    justify-self: center;
+    align-self: flex-start;
+    position: relative;
+  } 
+
+  .navbar-collapse{
+      flex-grow: 0;
+ }
+ .navbar-nav .dropdown-menu{
+     background-color: #5c7c9c;
+     border: none;
+     color: white !important;
+ }
+
+ .dropdown-item{
+     color:white
+ }
