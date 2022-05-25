@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "//lorenaruiz0717.github.io/Testimonials-in-React-Booststrap/precache-manifest.31e81899f6e951b51a15b467b9f2bcd7.js"
+  "/Testimonials-in-React-Booststrap/precache-manifest.39353c8391b8ee9aee1d6757c75fdb26.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("//lorenaruiz0717.github.io/Testimonials-in-React-Booststrap/index.html", {
+workbox.routing.registerNavigationRoute("/Testimonials-in-React-Booststrap/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
