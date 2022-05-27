@@ -6,7 +6,7 @@ import './dist/main.css'
 import Testimonials from './components/Testimonials'
 import NavBar from './components/Navbar';
 import Footer from './components/Footer';
-
+import Introduction from './components/Introduction';
 
 
 function App() {
@@ -15,11 +15,7 @@ function App() {
     <NavBar></NavBar>
     <div className="container align-items-center justify-content-center height App">
       <div className='principalContainer'>
-        <h1>Labor Social</h1>
-        <h5>Hola bienvenid@, aqui encontraras historias con finales felices, gaticas embarazadas en condición de calle rescatadas para darle a ella y a sus bebés una excelente calidad de vida al igual que gatitos bebes recuperados.
-          Hoy en día entregados a lindos hogares donde disfrutan de amor, cuidado y compañia siendo los más consentidos del hogar.</h5>
-  
-    
+       <Introduction></Introduction>    
         <div className='row'>
           <div className="col-12 col-lg-9">
             <div className='row'>
