@@ -24,17 +24,11 @@ function App() {
                   <Testimonials/>
                 </article>
               </div>
-              {/* <div className="col-12 col-lg-5 p-3">
+              <div className="col-12 col-lg-5 p-3">
                 <article className="card h-100 cardColor2">
-                  <Testimonials
-                    name='Emma'
-                    image='imgTestimonial3'
-                    city='Bogotá'
-                    testimonials='Lindos productos happy pets'
-                    description='Lorem ipsum dolor sit amet, consectetur adipiscing.'
-                  />
+                  <Testimonials/>
                 </article>
-              </div> */}
+              </div>
               {/* <div className="col-12 col-lg-5 p-3">
                 <article className="card h-100 cardColor3">
                   <Testimonials

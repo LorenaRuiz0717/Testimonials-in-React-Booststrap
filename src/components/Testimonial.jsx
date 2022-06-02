@@ -1,11 +1,10 @@
 import React from "react";
 
-const Testimonial=(props)=>{
-
-    return(
+const Testimonial = (props) => {
+  return (
     <div className="card-body">
-        <div key={props.id}>
-       <h1> {props.name} </h1>
+      <div key={props.id}>
+        <h1> {props.name} </h1>
         <div className="d-flex mb-3 containerImg">
           <figure>
             <img
@@ -17,9 +16,8 @@ const Testimonial=(props)=>{
         </div>
         <p>{props.History}</p>
       </div>
-      </div>
-    )
+    </div>
+  );
 };
 
 export default Testimonial;
-
