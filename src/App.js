@@ -18,17 +18,18 @@ function App() {
        <Introduction></Introduction>    
         <div className='row'>
           <div className="col-12 col-lg-9">
-            <div className='row'>
-              <div className="col-12 col-lg-7 p-3">
+      
+            <Testimonials />
+              {/* <div className="col-12 col-lg-7 p-3">
                 <article className="card h-100 cardColor1">
-                  <Testimonials/>
+              
                 </article>
-              </div>
-              <div className="col-12 col-lg-5 p-3">
+              </div> */}
+              {/* <div className="col-12 col-lg-5 p-3">
                 <article className="card h-100 cardColor2">
                   <Testimonials/>
                 </article>
-              </div>
+              </div> */}
               {/* <div className="col-12 col-lg-5 p-3">
                 <article className="card h-100 cardColor3">
                   <Testimonials
@@ -51,7 +52,7 @@ function App() {
                   />
                 </article>
               </div> */}
-            </div>
+            
 
           </div>
           {/* <div className='col-12 col-lg-3 p-3'>
