@@ -18,7 +18,6 @@ function App() {
        <Introduction></Introduction>    
         <div className='row'>
           <div className="col-12 col-lg-9">
-      
             <Testimonials />
               {/* <div className="col-12 col-lg-7 p-3">
                 <article className="card h-100 cardColor1">
