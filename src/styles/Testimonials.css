@@ -39,3 +39,7 @@
 .cardColor3{
     background-color:#db982a;
 }
+
+.hidden{
+    display: none;
+}

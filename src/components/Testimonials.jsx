@@ -3,14 +3,15 @@ import React
 from "react";
 import "../styles/Testimonials.css";
 import Testimonial from "./Testimonial"
-// import data from "../data.json";
+import data from "../data.json";
 
 
-const Testimonials= (props) => {
+const Testimonials= () => {
+    
   return (
-    <div className="row">
-          <Testimonial></Testimonial>
-    </div>
+
+    <Testimonial></Testimonial>
+  
   
   );
 }
