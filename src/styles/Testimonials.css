@@ -29,17 +29,17 @@
 
 .cardColor1{
     background-color: #9c1525;
+    padding: 30px;
 }
 
 
 .cardColor2{
-    background-color: #445c7c
+    background-color: #445c7c;
+    padding: 30px; 
 }
 
 .cardColor3{
     background-color:#db982a;
+    padding: 30px;
 }
 
-.hidden{
-    display: none;
-}

@@ -1,9 +1,10 @@
 import React from "react";
 import data from "../data.json";
+// import foto from "../images/fondo1.jpg";
 
 const Testimonial = () => {
   const swichCase = (id) => {
-    console.log(id);
+    // console.log(id);
     switch (id) {
       case 0:
       case 3:
@@ -28,25 +29,46 @@ const Testimonial = () => {
       case 2:
         return "card h-100 cardColor3";
       default:
-      return"card h-100 cardColor1"
+        return "card h-100 cardColor1";
     }
   };
 
+  const loadImage = imageName => (require(`C:\Users\loren\OneDrive\Desktop\proyectsReact\TestimoniaslBoostrap\public\images\  ${imageName}`).default);
+  // const LoadImage =
+  //   data.map((d, id) => {
+  //     console.log(d.Img)
+  //     return (
+  //       <img
+  //         // className="border-primary border-4 imgTestimonials"
+  //         src={d.Img}
+  //         alt="lore"
+  //         key={id}
+  //       ></img>
+  //     );
+  //   });
+  
   const listTestimonials = data.map((d, id) => {
-    if (id != 4) {
+    if (id !== 4) {
       return (
         // <div className= {id===5?"col-12 col-lg-3 p-3":"col-12 col-lg-9"} key={id}>
         <div className={swichCase(id)} key={id}>
           <article className={swichCaseArticle(id)} key={id}>
             <h1> {d.Name}</h1>
             <h2> {d.History} </h2>
-            <figure className="figureTestimonials">
-              <img
+            <figure className="figureTestimonials"> 
+               <img
                 className="border-primary border-4 imgTestimonials"
                 src={d.Img}
-                alt="imgProduct"
-              />
+                alt="imgProductList"
+              /> 
+               {/* {LoadImage} */}
             </figure>
+            {/* <img
+              className="border-primary border-4 imgTestimonials"
+              src={loadImage}
+              alt="lore"
+              src={d.Img}
+            /> */}
           </article>
         </div>
       );
@@ -60,20 +82,20 @@ const Testimonial = () => {
         <div className={swichCase(id)} key={id}>
           <article className={swichCaseArticle(id)} key={id}>
             <h1> {d.Name}</h1>
-            <h2> {d.History} </h2>
             <figure className="figureTestimonials">
               <img
                 className="border-primary border-4 imgTestimonials"
                 src={d.Img}
-                alt="imgProduct"
+                alt="imgProductVertical"
               />
             </figure>
+            <p> {d.History} </p>
+            {/* <img src={loadImage("fondo2.jpg")} alt="mg" /> */}
           </article>
         </div>
       );
     }
   });
-
 
   console.log(listTestimonials);
   return (
